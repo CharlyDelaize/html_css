@@ -37,13 +37,13 @@ nav, footer{ /* je sépare les différentes balises à sélectionner par de virg
 
 /* pour sélectionner une classe en CSS, j'utilise un point avant le nom que je lui ai donné */
 .jaune{
-    background-color: yellow;
+    background-color: limegreen;
 }
 
 /* pour cibler l'id, j'utilise un dièse */
 #noir {
-    background-color: black;
-    color: #FFF;
+    background-color: yellowgreen;
+    color: firebrick;
     text-align: justify;
     font-size: 25px;
 }
