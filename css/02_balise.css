@@ -1,0 +1,49 @@
+*{ /* l'étoile ou astérisque signifie que je séléctionne tout le document */
+    text-align: right; /* on aligne le text à droite */
+}
+
+body{
+    background-color: rgb(104, 164, 218); /* couleur de fond */
+}
+
+header{
+    background-color: darkcyan;
+    color: aliceblue; /* couleur de texte */
+    height: 100px; /* hauteur fixée à 100 pixels */
+} 
+
+nav{
+    background-color: royalblue;
+    height: 60px;
+}
+
+section{
+    background-color: forestgreen;
+    height:500px
+}
+
+article{
+    background-color: darkgreen;
+    height: 70px;
+}
+footer{
+    background-color: royalblue;
+    height: 60px;
+}
+
+nav, footer{ /* je sépare les différentes balises à sélectionner par de virgules */
+    color : aliceblue
+}
+
+/* pour sélectionner une classe en CSS, j'utilise un point avant le nom que je lui ai donné */
+.jaune{
+    background-color: yellow;
+}
+
+/* pour cibler l'id, j'utilise un dièse */
+#noir {
+    background-color: black;
+    color: #FFF;
+    text-align: justify;
+    font-size: 25px;
+}
