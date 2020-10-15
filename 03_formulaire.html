@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire HTML</title>
+    <link rel="stylesheet" href="css/03_formulaire.css">
+<body>
+    <!-- Je déclare mon formulaire avec la balise form -->
+    <form>
+        <label>
+            pseudo
+
+            <input type="text" id="pseudo" name="pseudo" placeholder="exemple" required> 
+            <!-- l'id sert à utiliser la donnée avec d'autres langages,
+            le placehorder contient le texte qui apparait dans l'imput
+            type précise le de données récupérées
+            required précise au navigateur que le champ est un renseigner obligatoirement -->
+        </label>
+
+        <br>
+
+        <label for="mdp">
+            Mot de passe <span title="le mot de passe peut contenir...."></span>
+        </label>
+        <input type="password" name="mdp" placeholder="Mot de passe" required>
+
+        <br>
+
+        <!-- email -->
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Email">
+
+        <br>
+
+        <!-- fichier -->
+        <label for="photo"> Photo</label>
+        <input type="file" name="photo">
+
+            <br>
+
+        <!-- cases à cocher checkbox-->
+        <!-- plusieurs chartes -->
+        <label for="question1">Comment allez-vous ?</label>
+        <p>
+            <input type="checkbox" name="reponse01"/>Bien
+            <input type="checkbox" name="reponse02"/>Mal
+            <input type="checkbox" name="reponse03"/>Ne se prononce pas
+        </p>
+
+        <br>
+        
+        <!-- cases à cocher radio -->
+        <!-- un choix -->
+        <label for="question1">Comment allez-vous ?</label>
+        <p>
+            <input type="radio" name="reponse01" checked>Bien
+            <input type="radio" name="reponse01">Mal
+            <input type="radio" name="reponse01">Ne se prononce pas
+        </p>
+
+        <br>
+
+        <!-- zone de texte -->
+        <label for="commentaire">Commentaires</label>
+        <textarea name="commentaires" cols="80" rows="0"></textarea>
+        <!-- rows = nombres de lignes / cols = nombres de colonnes / caractères-->
+
+        <br>
+
+        <!-- bouton envoi de formulaire -->
+        <input type="submit" name="inscription" value="Envoyer">
+        
+        <!--Bouton pour vider le formulaire-->
+        <input type="reset" name="annuler" value="Annuler">
+
+        <br>
+
+        <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank" rel="noopener noreferrer">W3school, les types d'input</a>
+
+        <br>
+
+        <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input" target="_blank" rel="noopener noreferrer">Petite documentation</a>
+    </form>
+</body>
+</html>
