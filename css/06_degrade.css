@@ -1,0 +1,18 @@
+.contenu{
+    height: 45em; /* hauteur */
+    width: 45em; /* largeur */
+    margin: auto; /* centre automatiquement la balise */
+    border-radius: 50%; /* arrondie les angles */
+    background: linear-gradient(to left, red, blue);
+    /* dégradé qui démarait avec la première couleur en haut et la dernière en bas */
+    /* to left la première couleur est à droite et la dernière à gauche */
+    /* lien vers un générateur de dégradé : cssgradient.io dans le slack */
+}
+
+.glace{
+    height: 45em;
+    width: 45em;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(#fafb3f, #4463fc);
+}
