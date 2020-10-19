@@ -1,0 +1,16 @@
+.code{
+    color: aqua;
+    background: #000;
+    display: inline-block;
+    font-style: italic;
+}
+
+a:hover{
+    color: rgb(0, 55, 236);
+    font-size: 1.1em;
+    background: orange;
+}
+
+a{
+    transition: 0.5s;
+}

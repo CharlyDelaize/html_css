@@ -1,0 +1,49 @@
+body{
+    margin: 0 auto;
+    background-color: darkcyan;
+}
+
+div{
+    width: 90%;
+    margin: 0 auto;
+    /* margin: 0 auto 0 auto; --> haut droite bas gauche
+    margin: 0;
+    margin: 0 auto 1; (gauche -> auto) */
+    background-color: lightblue;
+}
+
+.boite{
+    height: 11vh; /* viewport height */
+    width: 18vh;
+    padding: 5vh;
+
+    /* 
+    EM : relatif à l'élément parent
+    REM : relatif à la balise HTML
+    % : relatif à l'élémenr parent (%)
+    vw : relatif à la largeur de l'écran
+    vh : relatif à la hauteur de l'écran
+    */
+    background-image: url(../image/montagne.png);
+    background-repeat: no-repeat;
+    border: 5px double steelblue;
+    margin: 2vh;
+    float: left; /* effet flottant, place les éléments côtes à côtes alors que le flux standart des éléments les places les uns en dessous des autres */ 
+    transition: margin 0.5s;
+}
+
+.boite:hover{ /* La pseudo classe :hover modifie l'affichage au survol de la souris */
+    margin-top: 10vh;
+}
+
+.clear{
+    clear: both; /* supprime l'effet flottant à droite et à gauche */
+}
+
+p{
+    background-color: aqua;
+}
+
+p span{
+    background-color: aliceblue;
+}
