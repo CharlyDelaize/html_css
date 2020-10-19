@@ -5,4 +5,7 @@ display-inblock :
 
 block : se place toujours l'un en dessous de l'autre par défaut, prend toute la largeur de la page
 
-inblock : se place toujours l'un à coté de l'autre, 
+inline : se place toujours l'un à coté de l'autre, 
+
+inline-block : même caractéristique que inline, mais peuvent être dimensionnées
+

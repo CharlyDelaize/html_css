@@ -1,0 +1,15 @@
+*{
+    background-color: wheat;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label #mdp{
+    color: teal;
+}
+
+label{
+    vertical-align: middle;
+}

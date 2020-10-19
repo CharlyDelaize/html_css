@@ -1,0 +1,73 @@
+body{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to left,#9d3e3e,#42958b);
+}
+
+h1{
+    background-color: royalblue;
+    color: white;
+}
+
+section p{
+    color: forestgreen;
+}
+
+section p:first-child{
+    color: blue;
+}
+
+section p:last-child{
+    color: red;
+}
+
+section p:nth-child(3), section p:nth-child(7){
+    color: goldenrod;
+}
+
+section p:nth-of-type(even){
+    color: red;
+}
+
+section p:nth-of-type(odd){
+    color: blue;
+}
+
+.Zone1{
+    color: red;
+}
+
+.Zone2{
+    color: blue;
+}
+
+.Zone3{
+    color: green;
+}
+
+.Zone4{
+    color: goldenrod;
+}
+
+.lime{
+    color: purple;
+}
+
+ul{
+    color: orangered;
+}
+
+li:nth-of-type(2){
+    background-color: cyan;
+}
+
+.Zone4 span{
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+.Zone4 span:hover{
+    font-size: 100px;
+    color:white ;
+    background-color: cyan;
+}

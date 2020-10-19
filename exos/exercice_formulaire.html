@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice de formulaire</title>
+    <link rel="stylesheet" href="../css/03_formulaire.css">
+</head>
+<body>
+    <form>
+        <label>
+            pseudo
+            <input type="text" id="pseudo" name="pseudo" placeholder="exemple" required>
+        </label>
+        <br>
+        <label for="mdp">
+            Mot de passe<span title="le mot de passe quel mot de passe ?"></span>
+        </label>
+        <input type="password" name="mdp" placeholder="mot de passe" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="email">
+        <br>
+        <label for="question">Qui est favori à ce Grand Chelem de tennis</label>
+        <p>
+            <input type="checkbox" name="reponse01">Federer
+            <input type="checkbox" name="reponse02">Nadal
+            <input type="checkbox" name="reponse03">Djokovic
+        </p>
+        <br>
+        <label for="question">Qui a gagné plus de 10 fois Roland-Garros</label>
+        <p>
+            <input type="radio" name="reponse02">Federer
+            <input type="radio" name="reponse02">Nadal
+            <input type="radio" name="reponse03">Djokovic
+        </p>
+        <br>
+        <label for="Commentaires">Ajouter un commentaire</label>
+        <textarea name="Commentaires" cols="80" role="0"></textarea>
+        <br>
+        <input type="submit" name="inscription" value="Envoyer">
+        <br>
+        <input type="reset" name="annuler" value="Annuler">
+
+    </form>
+</body>
+</html>
