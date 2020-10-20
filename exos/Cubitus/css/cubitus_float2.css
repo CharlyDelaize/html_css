@@ -1,0 +1,80 @@
+.c1{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid black;
+    margin: 0.2em;
+    /* display: inline-block; */
+    float: left;
+    text-align: center;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 30%;
+    background-color: green;
+}
+
+.c2{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid black;
+    margin: 0.2em;
+    /* display: inline-block; */
+    float: left;
+    text-align: center;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background-color: cyan;
+}
+
+.c3{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid black;
+    margin: 0.2em;
+    /* display: inline-block; */
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.c4, .c5{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid black;
+    margin: 0.2em;
+    /* display: inline-block; */
+    float: left;
+    text-align: center;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 20%;
+}
+
+.c4{
+    background-color: darksalmon;
+}
+
+ .c5{
+    background-color: red;
+}
+
+/* section div:nth-child(18){
+    background-color: red;
+} */
+
+.c6{
+    height: 10em;
+    width: 10.8em;
+    float: left;
+    color: white;
+}
+
+.c6:empty{
+    background-color: white;
+}
+
+.clear{
+    clear: both;
+}
