@@ -1,3 +1,52 @@
 body{
-    background-color: wheat;
+    background-color: white;
+    font-size: 25px;
+}
+
+#conteneur{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid rgb(87, 195, 238);
+}
+
+header{
+    background-color: rgb(87, 195, 238);
+    height: 100px;
+}
+
+section{
+    background-color: darksalmon;
+    height: 500px;
+    margin: 20px;
+}
+
+footer{
+    background-color : rgb(87, 195, 238);
+    height: 100px;
+}
+
+.a, .b, .c, .d{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.a{
+    background-color: palegreen;
+}
+
+.b{
+    background-color: powderblue;
+}
+
+.c{
+    background-color: rgb(255, 156, 145);
+}
+
+.d{
+    background-color: sandybrown;
+}
+
+.clear{
+    clear: both;
 }

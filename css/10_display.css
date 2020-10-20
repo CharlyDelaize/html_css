@@ -1,0 +1,31 @@
+h1, h2, div, a, p, span, section{
+    text-align: center;
+    border: 1px solid green;
+    background-color: honeydew;
+}
+
+.block{
+    display: block;
+}
+
+.inline{
+    display:inline;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    background-color: seagreen;
+    color: black;
+}
+
+/* .fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    background-color: hotpink;
+    width: 100%;
+} */
