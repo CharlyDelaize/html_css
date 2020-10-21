@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+}
+
+nav{
+    background: #000; /* défini que la couleur, on peut mettre plusieurs valeurs */
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0; /* position à partir du haut de l'écran */
+    left: 0; /* postion à partir du bord gauche de l'écran */
+    margin: 0 0 20px; /* top right bottom left=right */
+}
+
+nav a{
+    float: left;
+    text-decoration: none; /* pas de soulignage dans le cas des liens */
+    color: #FFF; /* récupéré dans nav */
+    height: 2.8em; /* nous n'avons pas donné de hauteur à la nav alors celle-ci va prendre celle de ses enfants */
+    line-height: 2.7em; /* interligne */
+    padding: 0em 2em;
+    font-size: 1.2em;
+    transition: 2s;
+}
+
+nav a:hover{
+    background-color: gray;
+    color: black;
+}
+
+.container{
+    width: 70%;
+    margin: 4% auto 2% auto; /* ==> 4% auto 2% */
+    background-color: rgb(195, 250, 195);
+    padding: 2em;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+mark{
+    background-color: aquamarine;
+}
+
+.container1{
+    width: 70%;
+    margin: 2% auto;
+    background: burlywood;
+    padding: 2%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.container2, .container3{
+    width: 44.5%;
+    background: rgb(250, 217, 184);
+    padding: 2%;
+    float: left;
+}
+
+.container2{
+    margin-right: 1.5%;
+}
+
+.container3{
+    margin-left: 1.5%;
+}
+
+.container4{
+    margin-top: 2em;
+}
+
+.clear{
+    clear: both;
+}
+
+body{
+    background-color: rgb(9, 43, 9);
+}
+
+.container3 li:nth-child(11){
+    border: 1px solid brown;
+}
+
+.container3 li:first-child{
+    font-weight: bold;
+}
+
+.container3 li:nth-child(7){
+    opacity: 0.5;
+}
+
+.container3 li:last-child{
+    color: brown;
+}
