@@ -1,0 +1,93 @@
+#container{
+    width: 45%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(233, 78, 78);
+    text-align: center;
+    padding: 1.5em; /* le padding sert à remplir les 4 éléments (top, bottom, left, right)*/
+}
+
+.gauche{
+    background-color: royalblue;
+    float: left;
+    padding-top: 15em;
+    padding-bottom: 20em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.droite{
+    background-color: royalblue;
+    float: right;
+    padding-top: 15em;
+    padding-bottom: 20em;
+    margin-top: -67.5%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.zone1{
+    background-color: rgb(3, 204, 103);
+    border: 1px solid black;
+    float: left;
+    padding-top: 15em;
+    padding-bottom: 14.9em;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+}
+
+.zone2{
+    background-color: rgb(3, 204, 103);
+    border: 1px solid black;
+    float: left;
+    padding-top: 15em;
+    padding-bottom: 14.9em;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+}
+
+.zone3{
+    background-color: rgb(3, 204, 103);
+    border: 1px solid black;
+    float: left;
+    padding-top: 15em;
+    padding-bottom: 14.9em;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+}
+
+.zone4{
+    background-color: rgb(3, 204, 103);
+    border: 1px solid black;
+    float: left;
+    padding-top: 15em;
+    padding-bottom: 14.9em;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+}
+
+.zone5{
+    background-color: rgb(3, 204, 103);
+    border: 1px solid black;
+    float: left;
+    padding-top: 15em;
+    padding-bottom: 14.9em;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+}
+
+footer{
+    background-color: gold;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 10em;
+    vertical-align: middle;
+    margin-top: -9.6%;
+}
+
+.clear{
+    clear: both;
+}

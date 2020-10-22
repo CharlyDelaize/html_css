@@ -1,0 +1,24 @@
+body{
+    background-color: peachpuff;
+}
+
+header{
+    background-color: burlywood;
+    float: left;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+p{
+    color: black;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(255, 176, 86);
+    color: black;
+}

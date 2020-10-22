@@ -1,0 +1,83 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+ul{
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.left ul{
+    margin: 3.2em 0 0 0;
+}
+
+.left, .right{
+    margin-top :5em;
+}
+
+.left, ul li{
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 1em;
+    width: 10em;
+}
+
+.left ul li:first-child{
+    border-top: 1px solid #ccc;
+}
+
+ul.liste li{
+    border-left: 1px solid #ccc;
+}
+
+.right .change ul li{
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 1em;
+    width: 10em;
+    text-align: center;
+}
+
+.right .change ul li:first-child{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+
+.right .change ul li:last-child{
+    border-bottom: 1px solid white;
+}
+
+.right .change ul:hover{
+    background: linear-gradient(green, aqua); /* dégradé de couleurs */
+    cursor: pointer; /* changement de l'affichage de curseur */
+    transform: scale(1.4); /* echelle de zoom */
+    transition-duration: 2s /* durée de l'animation */;
+}
+
+.right .change ul:hover li:first-child{
+    background-color: black;
+}
+
+.change:hover #premium{
+    color: lightseagreen;
+}
+
+.change:hover #gold{
+    color: lightseagreen;
+}
+
+.change:hover #silver{
+    color: lightseagreen;
+}
+
+.clear{
+    clear: both;
+}
+
+iframe{
+    bottom: 0;
+}
