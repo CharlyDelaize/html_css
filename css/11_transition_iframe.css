@@ -15,10 +15,10 @@ ul{
 }
 
 .left, .right{
-    margin-top :5em;
+    margin-top: 5em;
 }
 
-.left, ul li{
+.left ul li{
     border-bottom: 1px solid #ccc;
     border-left: 1px solid #ccc;
     padding: 1em;
