@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 50%;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.row1{
+    height: 200px;
+    text-align: center;
+}
+
+.row2{
+    height: 50px;
+
+}
+
+.row3{
+    color: red;
+    border: 1px solid red;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin-top: auto;
+    height: 250px;
+}
+
+.col1{
+    height: 225px;
+}
+
+.row4{
+    height: 10px;
+}
