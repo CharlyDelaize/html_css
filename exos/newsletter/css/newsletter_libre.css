@@ -2,15 +2,6 @@ body{
     text-align: center;
     width: 34%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:grey;
+    color:black;
     margin: 0 auto;
 }
-
-table{
-    border: 1px solid silver;
-}
-
-tr{
-    height: 100px;
-}
-
