@@ -1,0 +1,48 @@
+/* Nous allons surcharger le style bootstrap */
+/* !important : force le style a être appliqué : propriété : valeur !important; */
+
+nav.navbar-expand-lg,.navbar-dark, .bg-primary{
+    background-color: orangered !important;
+    border-color: lightsalmon;
+}
+
+body{
+    background-color: burlywood ;
+}
+
+.jumbotron{
+    background-color: lightsalmon;
+    border-top: 3px solid orangered;
+}
+
+.btn{
+    background-color: orangered;
+    border-color: lightsalmon;
+    transition: 0.7s;
+}
+
+.btn:hover{
+    background-color: firebrick;
+    border-color: rgb(226, 49, 49);
+}
+
+.nav-link{
+    color: firebrick;
+    transition: 0.5s;
+}
+
+.card-body{
+    background-color: lightsalmon;
+}
+
+#CarouselExampleControls{
+    padding-top: 5em;
+}
+
+.progress{
+    background-color: salmon;
+}
+
+.progress-bar{
+    background-color: orangered;
+}
