@@ -107,3 +107,7 @@ section p{
     padding-bottom: 15px;
 }
 
+article{
+    width: 80%;
+    border: 1px solid gray;
+}
