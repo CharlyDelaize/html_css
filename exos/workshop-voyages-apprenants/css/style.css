@@ -28,6 +28,11 @@ nav a{
     text-decoration: none;
     font-size: 20px;
     margin : 1em;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    font-weight: bold;
 }
 
 marquee{
@@ -44,18 +49,21 @@ section{
 
 .japon{
     width: 100%;
-    height: 250px;
+    height: 300px;
     margin: 1em;
     background: linear-gradient(#05a2fa, #b15f7f);
     border-radius: 20px;
 }
 
 .japon img{
-    width: 25%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
     padding: 1em;
     float: left;
-    padding-top: 3em;
-    clip-path: circle(28%);
+    padding-top: 2em;
+    /* clip-path: circle(28%); */
 }
 
 .japon article{
@@ -73,18 +81,20 @@ section{
 
 .thailande{
     width: 100%;
-    height: 250px;
+    height: 300px;
     margin: 1em;
     background: linear-gradient(#0794b1,#74be81);
     border-radius: 20px;
 }
 
 .thailande img{
-    width: 25%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
     padding: 1em;
     float: right;
-    padding-top: 3em;
-    clip-path: circle(23%);
+    padding-top: 2em;
+    /* clip-path: circle(23%); */
 }
 
 .thailande article{
@@ -101,18 +111,20 @@ section{
 
 .inde{
     width: 100%;
-    height: 250px;
+    height: 300px;
     margin: 1em;
     background: linear-gradient(#05a2fa,#ffb800);
     border-radius: 20px;
 }
 
 .inde img{
-    width: 25%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
     padding: 1em;
     float: left;
     padding-top: 1em;
-    clip-path: circle(23%);
+    /* clip-path: circle(23%); */
 }
 
 .inde article{
@@ -124,28 +136,45 @@ section{
 }
 
 .inde h2{
-    text-shadow: 0.05em 0.05em #ffb800;
+    text-shadow: 0.05em 0.05em #fddc89;
 }
 
 footer{
     background: linear-gradient(#74be81, #0794b1);
     height: 100px;
+    color: white;
+    padding-top: 0.5em;
 }
 
 footer i{
     float: right;
     margin: 1em;
+    color: white;
 }
 
 
-@media (max-width: 768px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
+@media (max-width: 1250px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
     section{
         width: 200px;
     }
 }
 
-@media (max-width: 768px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
+@media (max-width: 1250px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
     h2, p{
         font-size: 8px;
     }
 }
+
+@media (max-width: 1250px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
+    .japon, .thailande, .inde{
+        height: 500px;
+    }
+}
+
+@media (max-width: 1250px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
+    .japon img, .thailande img, .inde img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
