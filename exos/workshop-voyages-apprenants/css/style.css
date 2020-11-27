@@ -16,7 +16,7 @@ header img{
 
 header h1{
     color: white;
-    padding-top: 0.5em;
+    padding-top: 0.9em;
 }
 
 nav{
@@ -26,13 +26,14 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     margin : 1em;
     transition: 0.5s;
 }
 
 nav a:hover{
     font-weight: bold;
+    text-shadow: 0.05em 0.05em #74be81;
 }
 
 marquee{
@@ -63,7 +64,6 @@ section{
     padding: 1em;
     float: left;
     padding-top: 2em;
-    /* clip-path: circle(28%); */
 }
 
 .japon article{
@@ -76,7 +76,7 @@ section{
 }
 
 .japon h2{
-    text-shadow: 0.05em 0.05em rgba(255,180,255,1);
+    text-shadow: 0.05em 0.05em rgb(189, 134, 189);
 }
 
 .thailande{
@@ -94,7 +94,6 @@ section{
     padding: 1em;
     float: right;
     padding-top: 2em;
-    /* clip-path: circle(23%); */
 }
 
 .thailande article{
@@ -124,7 +123,6 @@ section{
     padding: 1em;
     float: left;
     padding-top: 1em;
-    /* clip-path: circle(23%); */
 }
 
 .inde article{
@@ -136,7 +134,7 @@ section{
 }
 
 .inde h2{
-    text-shadow: 0.05em 0.05em #fddc89;
+    text-shadow: 0.05em 0.05em #bba468;
 }
 
 footer{
@@ -146,35 +144,72 @@ footer{
     padding-top: 0.5em;
 }
 
+footer p{
+    padding-left: 1em;
+}
+
 footer i{
     float: right;
     margin: 1em;
     color: white;
 }
 
-
-@media (max-width: 1250px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
+@media (min-width: 1px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
     section{
         width: 200px;
     }
-}
 
-@media (max-width: 1250px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
     h2, p{
-        font-size: 8px;
+        font-size: 9px;
     }
-}
-
-@media (max-width: 1250px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
+    
     .japon, .thailande, .inde{
         height: 500px;
     }
+
+    .japon img, .thailande img, .inde img{
+        width: 100px;
+        height: 100px;
+    }
+    
 }
 
-@media (max-width: 1250px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
+
+@media (min-width: 600px){ /* le @media sert à utiliser le media queries, on utilise le @ pour écrire une règle css, la largeur dont on parle ici est celle de l'écran */
+    section{
+        width: 500px;
+    }
+
+    h2, p{
+        font-size: 12px;
+    }
+
+    .japon, .thailande, .inde{
+        height: 300px;
+    }
+
     .japon img, .thailande img, .inde img{
         width: 100px;
         height: 100px;
     }
 }
 
+@media (min-width: 1250px){
+    section{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    h2, p{
+        font-size: 16px;
+    }
+
+    .japon, .thailande, .inde{
+        height: 300px;
+    }
+
+    .japon img, .thailande img, .inde img{
+        width: 250px;
+        height: 250px;
+    }
+}
