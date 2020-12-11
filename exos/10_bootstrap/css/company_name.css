@@ -1,0 +1,273 @@
+/* ----- HEADER ----- */
+
+header{
+    background-color: rgb(53, 58, 64);
+    height: 150px;
+}
+
+.logo{
+    display: flex;
+    padding-top: 2em;
+    padding-left: 1em;
+}
+
+.logo img{
+    width: 5%;
+}
+
+.titre{
+    font-family: 'Texturina', serif;
+    font-size: 48px;
+    color: white;
+}
+
+/* Nav */
+
+nav{
+    width: 60%;
+    float: right;
+    position: absolute;
+    top: -75px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(239, 173, 75);
+    margin-left: 1em;
+}
+
+.bg-light{
+    background-color: rgb(53, 58, 64) !important;
+}
+
+.container-fluid{
+    background-color: rgb(53, 58, 64);
+}
+
+nav .form-control{
+    border-radius: 0;
+    width: 50%;
+}
+
+.btn-outline-success{
+    border-radius: 0;
+    color: rgb(239, 173, 75);
+    border-color: rgb(239, 173, 75);
+}
+
+#activ{
+    border-bottom: 1px solid rgb(239, 173, 75);
+}
+
+/* ----- MAIN ----- */
+
+/* ----- Jumbotrons ----- */
+
+.jumbotron{
+    background-image: url(../img/banner-buisnessman.jpg);
+    height: 711px;
+}
+
+.jumbotron h1{
+    padding-top: 5em;
+    padding-left: 3em;
+    font-family: 'Dosis', sans-serif;
+}
+
+.jumbotron h1, .lead{
+    color: white;
+}
+
+.lead{
+    padding-left: 7em;
+}
+
+.citation{
+    color: rgb(239, 173, 75);
+    padding-left: 58em;
+}
+
+.jumbo i{
+    padding-left: 19.5em;
+    font-size: 48px;
+    color: rgb(53, 58, 64);
+    padding-bottom: 1em;
+}
+
+/* Our projects */
+
+h2{
+    font-family: 'Texturina', serif;
+    background-color: rgb(53, 58, 64);
+    color: rgb(239, 173, 75);
+    text-align: center;
+    padding: 1.5em;
+}
+
+h5{
+    font-family: 'Texturina', serif;
+}
+
+.projects .card{
+    float: left;
+    margin-left: 5em;
+    border: 3px solid rgb(29, 32, 36);
+    width: 28%;
+    height: 350px;
+}
+
+.projects .card-img{
+    height: 100%;
+}
+
+.projects{
+    padding-bottom: 0em;
+}
+
+.projects h2{
+    margin-bottom: 2em;
+}
+
+.projects .card p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-sold{
+    font-family: 'Texturina', serif;
+    color: white;
+    background-color: rgb(220, 53, 69);
+    position: absolute;
+    margin-left: 27em;
+    top: 1em;
+}
+
+.projects .card:last-child h5{
+    float: left;
+}
+
+.projects .card-text2{
+    padding-top: 2em;
+}
+
+.projects .card-text1{
+    background-color: rgba(255, 255, 255, 0.11);
+    width: 90%;
+    margin: 2em;
+    padding: 1em;
+}
+
+.see{
+    color: rgb(239, 173, 75);
+    text-align: right;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    margin-right: 3em;
+}
+
+.clear{
+    clear: both;
+}
+
+/* Our company */
+
+.company .card{
+    float: left;
+    margin-left: 2em;
+    border: none;
+}
+
+.company .card img{
+    width: 100%;
+    border-radius: 3px;
+    padding-top: 2em;
+}
+
+.company .card p{
+    font-size: 12px;
+    color: rgb(53, 58, 64);
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1px;
+}
+
+.company .card h5{
+    color: rgb(53, 58, 64);
+}
+
+/* Our contact */
+
+.contact .form-group1{
+    float: left;
+    width: 39%;
+}
+
+.contact .form-group2{
+    float: left;
+    width: 39%;
+    margin-left: 1em;
+}
+
+.contact .form-group3{
+    float: left;
+    width: 39%;
+}
+
+.contact .form-group4{
+    float: left;
+    width: 39%;
+    margin-left: 1em;
+}
+
+.contact .form-group5{
+    float: left;
+    width: 80%;
+}
+
+.contact .mb-3{
+    width: 80%;
+}
+
+.contact button{
+    background-color: black;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    width: 80%;
+}
+
+.contact form{
+    margin-left: 5em;
+    width: 50%;
+    float: left;
+}
+
+.maps{
+    border: 3px solid rgb(53, 58, 64);
+    border-radius: 2px;
+    width: 32%;
+    height: 457px;
+    float: left;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(53, 58, 64);
+    display: flex;
+}
+
+footer p{
+    font-weight: bold;
+    color: white;
+    padding: 2em;
+}
+
+footer .reseau{
+    padding-top: 2.5em;
+    padding-left: 100em;
+    color: white;
+}
+
+footer i{
+    font-size: 30px;
+}
