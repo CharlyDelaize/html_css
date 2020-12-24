@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.parallax{
+    background-image: url(../img/caraibes_martinique_boucaniers.jpg);
+    height: 100%;
+    background-attachment: fixed; /* retire le scroll, laisse l'image reste "fixed" */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and(max-device-width: 1366px){
+    .parallax{
+        background-attachment: scroll;
+    }
+}
+
+.scroll{
+    height: 280px;
+    font-size: 36px;
+}
+
+.scroll p{
+    margin: 0;
+}
+
+#scroll_1{
+    background: rgb(250,5,5);
+background: linear-gradient(90deg, rgba(250,5,5,1) 0%, rgba(10,0,255,1) 100%);
+color: white;
+}
+
+#scroll_2{
+    background-image: url(../img/woodPlank.jpg);
+}
+
+#scroll_3{
+    background: rgb(238,250,5);
+background: linear-gradient(90deg, rgba(238,250,5,1) 0%, rgba(1,149,2,1) 100%);
+}
